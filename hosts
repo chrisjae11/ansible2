@@ -1,0 +1,16 @@
+[webservers:children]
+production
+
+[production]
+ipa3
+ipa4
+
+[appserver]
+ipa5
+
+[rhel]
+rhel11
+
+[servers]
+ipa2
+ipa6
